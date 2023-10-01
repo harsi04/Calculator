@@ -1,0 +1,29 @@
+.center{
+    text-align: center;
+}
+.container{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button{width: 66px;
+    padding: 20px;
+    border-radius: 120px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.input{
+    width: 272px;
+    font-size: 17px;
+    margin:0px;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.container,.button,.row,body{
+    background-color: black;
+    color: white;
+}
